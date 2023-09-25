@@ -360,7 +360,8 @@ $mullo = mysqli_query($con, $sebarmullo)
         <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
             <div class="md:max-w-md lg:col-span-2">
                 <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-                    <img src="Assets/logo.png" alt="logo">
+                    
+                  <img class="w-20" src="Assets/logo.png" alt="logo">
                     <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">UP</span>
                 </a>
                 <div class="mt-4 lg:max-w-sm">

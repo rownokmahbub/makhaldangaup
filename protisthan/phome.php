@@ -29,7 +29,7 @@ if ($email == null) {
                 <div>
                     <a href='../adminhome.php'
                         class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        <img src="../Assets/logo.png" alt="">
+                         <img class="w-20" src="../Assets/logo.png" alt="">
                     </a>
                 </div>
                 <h2
@@ -96,7 +96,7 @@ if ($email == null) {
                 <div>
                     <a href='../adminhome.php'
                         class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        <img src="../Assets/logo.png" alt="">
+                         <img class="w-20" src="../Assets/logo.png" alt="">
                     </a>
                 </div>
                 <h2
@@ -171,7 +171,7 @@ if ($email == null) {
                 <div>
                     <a href='../adminhome.php'
                         class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        <img src="../Assets/logo.png" alt="">
+                         <img class="w-20" src="../Assets/logo.png" alt="">
                     </a>
                 </div>
                 <h2
@@ -273,7 +273,7 @@ if ($email == null) {
                 <div>
                     <a href='../adminhome.php'
                         class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        <img src="../Assets/logo.png" alt="">
+                         <img class="w-20" src="../Assets/logo.png" alt="">
                     </a>
                 </div>
                 <h2

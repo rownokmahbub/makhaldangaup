@@ -72,9 +72,7 @@
                                     <a href="kormokortaborgo.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">কর্মকর্তা বর্গ ও
                                         কর্মচারী</a>
                                 </li>
-                                <li>
-                                    <a href="videoshow.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">ভিডিও</a>
-                                </li>
+                             
                             </ul>
 
                         </div>
@@ -101,6 +99,14 @@
 
                                 <li>
                                     <a href="gram.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">গ্রামের
+                                        তালিকা </a>
+                                </li>
+                                <li>
+                                    <a href="sodosshotalika.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">সদস্য
+                                        তালিকা </a>
+                                </li>
+                                <li>
+                                    <a href="kormocaritalika.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">কর্মচারী
                                         তালিকা </a>
                                 </li>
                             </ul>

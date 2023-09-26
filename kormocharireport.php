@@ -3,7 +3,7 @@ include 'dbconnect.php';
 if (isset($_REQUEST['id'])) {
     $rid = $_REQUEST['id'];
 
-    $query = "SELECT * FROM `sodosshotalika` WHERE id=$rid";
+    $query = "SELECT * FROM `kormocharitalika` WHERE id=$rid";
     $poriciti = mysqli_query($con, $query);
     $result = mysqli_fetch_array($poriciti);
 }
@@ -57,7 +57,7 @@ if (isset($_REQUEST['id'])) {
 <div class="flex flex-col justify-center items-center">
       <p class='text-3xl font-semibold'>মাখালডাঙ্গা ইউপি</p>
       <p class='text-xl font-medium my-1'>চুয়াডাঙ্গা সদর, চুয়াডাঙ্গা</p>
-      <p class='text-xl font-medium mb-5'>চেয়ারম্যান ও সদস্যের তালিকা </p>
+      <p class='text-xl font-medium mb-5'>কর্মচারী ও গ্রাম পুলিশের তালিকা </p>
 
 </div>
 

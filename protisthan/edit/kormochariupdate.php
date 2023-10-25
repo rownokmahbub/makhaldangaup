@@ -1,9 +1,6 @@
 <?php
 ob_start();
 
-// code 
-
-
 session_start();
 include '../../dbconnect.php';
 
@@ -22,7 +19,9 @@ if (isset($_POST['submit'])) {
 
 
     $edit="UPDATE `kormocharitalika` SET `slno`='$slno',`name`='$name',`podobi`='$podobi',`joggota`='$joggota',`birthdate`='$birthdate',`mobileno`='$mobileno',`word`='$word',`voterid`='$voterid' WHERE id=$id";
+   
     $query=mysqli_query($con,$edit);
+
     if($query){
         header("location:pedit.php");
     }

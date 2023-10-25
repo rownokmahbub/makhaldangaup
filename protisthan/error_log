@@ -12,3 +12,7 @@
 [16-Sep-2023 11:43:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/dbconnect.php:1) in /home/titudahu/public_html/protisthan/gramreg.php on line 24
 [16-Sep-2023 11:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/dbconnect.php:1) in /home/titudahu/public_html/protisthan/gramreg.php on line 24
 [16-Sep-2023 11:46:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/dbconnect.php:1) in /home/titudahu/public_html/protisthan/gramreg.php on line 24
+[26-Sep-2023 11:50:14 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/protisthan/phome.php on line 3
+[27-Sep-2023 10:49:07 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/protisthan/phome.php on line 3
+[27-Sep-2023 10:51:56 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/protisthan/phome.php on line 3
+[28-Sep-2023 07:08:40 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/protisthan/phome.php on line 3

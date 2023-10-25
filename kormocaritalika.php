@@ -71,7 +71,7 @@
 
         <?php
         include './dbconnect.php';
-        $query = "SELECT * FROM `kormocharitalika`";
+            $query = "SELECT *, DATE_FORMAT(birthdate,'%d/%m/%Y') AS birthdate FROM `kormocharitalika`";
         $poriciti = mysqli_query($con, $query);
 
         while ($row = mysqli_fetch_assoc($poriciti)) {

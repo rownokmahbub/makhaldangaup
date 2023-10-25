@@ -90,8 +90,14 @@ $mullo = mysqli_query($con, $sebarmullo)
 
             </div>
             <!-- Item 3 -->
-          
-          
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="Assets/hero3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="Assets/hero4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+
+            </div>
 
         </div>
         <!-- Slider indicators -->
@@ -354,8 +360,7 @@ $mullo = mysqli_query($con, $sebarmullo)
         <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
             <div class="md:max-w-md lg:col-span-2">
                 <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-                    
-                  <img class="w-20" src="Assets/logo.png" alt="logo">
+                    <img class='w-20' src="Assets/logo.png" alt="logo">
                     <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">UP</span>
                 </a>
                 <div class="mt-4 lg:max-w-sm">

@@ -52,7 +52,7 @@ if (isset($_REQUEST['id'])) {
 
 
     ?>
-    <form class="mt-5 px-5 flex flex-col gap-4 justify-center items-center max-w-2xl mx-auto" action="sodossoupdate.php"
+    <form class="mt-5 px-5 flex flex-col gap-4 justify-center items-center max-w-2xl mx-auto" action="./sodossoupdate.php"
         method="POST">
 
         <input type="hidden" name="hid" value="<?php echo $kid; ?>">
@@ -83,7 +83,7 @@ if (isset($_REQUEST['id'])) {
             </div>
             <div>
                 <label for="name">জন্ম তারিখ</label>
-                <input name='bithdate' type="text"
+                <input name='birthdate' type="date"
                     class='px-3 py-2 border-gray-300 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 w-full rounded-xl text-sky-900'
                     value='<?php echo $birthdate ?>'>
             </div>

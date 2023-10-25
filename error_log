@@ -671,3 +671,58 @@
 [17-Sep-2023 14:49:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/titudahu/public_html/waresreport.php on line 81
 [17-Sep-2023 14:49:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/titudahu/public_html/waresreport.php on line 82
 [17-Sep-2023 14:49:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/titudahu/public_html/waresreport.php on line 83
+[26-Sep-2023 07:31:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/titudahu/public_html/sodosshotalika.php:77
+Stack trace:
+#0 /home/titudahu/public_html/sodosshotalika.php(77): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home/titudahu/public_html/sodosshotalika.php on line 77
+[28-Sep-2023 03:44:47 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[01-Oct-2023 05:09:53 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[01-Oct-2023 05:31:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:31:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:31:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:34:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:37:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:37:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:39:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:39:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:42:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:42:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:47:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:47:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:52:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:52:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 05:57:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 05:57:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 06:48:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 06:48:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 09:50:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[01-Oct-2023 09:50:21 UTC] PHP Warning:  Undefined array key "gram" in /home/titudahu/public_html/waresreg.php on line 19
+[01-Oct-2023 09:50:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[01-Oct-2023 14:08:32 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[01-Oct-2023 14:20:59 UTC] PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /home/titudahu/public_html/fileuploaddownload.php on line 5
+[02-Oct-2023 01:32:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/titudahu/public_html/waresreg.php on line 8
+[02-Oct-2023 01:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/titudahu/public_html/waresreg.php:1) in /home/titudahu/public_html/waresreg.php on line 68
+[02-Oct-2023 02:35:27 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[02-Oct-2023 07:21:12 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/waresentry.php on line 3
+[03-Oct-2023 06:31:20 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[03-Oct-2023 07:26:12 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[03-Oct-2023 08:53:17 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/waresentry.php on line 3
+[05-Oct-2023 06:59:41 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[08-Oct-2023 02:38:18 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[08-Oct-2023 03:03:03 UTC] PHP Warning:  Undefined array key "dakghor" in /home/titudahu/public_html/nagorikentryreg.php on line 24
+[08-Oct-2023 04:12:09 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[08-Oct-2023 06:02:48 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[09-Oct-2023 07:00:10 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[09-Oct-2023 07:00:13 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userlogout.php on line 9
+[09-Oct-2023 07:00:13 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userlogout.php on line 9
+[10-Oct-2023 04:35:27 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[14-Oct-2023 13:19:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/titudahu/public_html/videoshow.php:54
+Stack trace:
+#0 /home/titudahu/public_html/videoshow.php(54): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home/titudahu/public_html/videoshow.php on line 54
+[18-Oct-2023 06:11:24 UTC] PHP Warning:  Undefined array key "email" in /home/titudahu/public_html/userhome.php on line 3
+[18-Oct-2023 18:23:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/titudahu/public_html/dbconnect.php on line 10
+[18-Oct-2023 18:23:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/titudahu/public_html/dbconnect.php on line 10

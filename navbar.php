@@ -72,7 +72,7 @@
                                     <a href="kormokortaborgo.php" class="block px-4 py-2 hover:bg-primary hover:text-white ">কর্মকর্তা বর্গ ও
                                         কর্মচারী</a>
                                 </li>
-                             
+                               
                             </ul>
 
                         </div>

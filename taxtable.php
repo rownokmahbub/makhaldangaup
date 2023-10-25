@@ -61,7 +61,7 @@
                     <th data-priority="2">গ্রাম</th>
                     <th data-priority="2">ওয়ার্ড</th>
 
-                    <th data-priority="2">কর</th>
+                 
 
 
 
@@ -85,7 +85,7 @@
                         <td class=''><?= $row['gram'] ?></td>
                         <td class=''><?= $row['ward'] ?></td>
 
-                        <td class=''><?= $row['totaltax'] ?></td>
+                      
 
 
 

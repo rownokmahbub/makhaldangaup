@@ -25,7 +25,7 @@ if ($email == null) {
                 <div>
                     <a href='./userhome.php'
                         class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        <img class="w-20" src="./Assets/logo.png" alt="">
+                        <img src="./Assets/logo.png" alt="">
                     </a>
                 </div>
                 <h2
@@ -54,34 +54,46 @@ if ($email == null) {
                         class='bg-gray-50 border border-gray-300 text-sky-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5'
                         type="text" name="fname" id="" placeholder='পিতা/স্বামীর নাম '>
 
-                        <select class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full" name="gram">
-                                <option disabled selected value="গ্রাম" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">গ্রাম
-                                </option>
-                                <option value="মাখালডাঙ্গা" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">মাখালডাঙ্গা
-                                </option>
-                                <option value="দীননাখপুর" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full"> দীননাখপুর
-                                </option>
-                                <option value="গাইতঘাট" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">গাইতঘাট
-                                </option>
-                                <option value="কুকিয়া চাদপুর" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">কুকিয়া চাদপুর
-                                </option>
-                                <option value="উকতো" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">উকতো
-                                </option>
-                                <option value="শ্রীকোল" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">শ্রীকোল
-                                </option>
-                                <option value="হানুরবাড়াদী" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">হানুরবাড়াদী
-                                </option>
-                                <option value="গাড়াবাড়ীয়া" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full"> গাড়াবাড়ীয়া
-                                </option>
-                                <option value="জাফরপুর" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full">জাফরপুর
-                                </option>
-                                <option value="ঠাকুরপুর" class="px-2 py-2 bg-white border border-gray-300 rounded-xl w-full"> ঠাকুরপুর
-                                </option>
-                             
+                    <select
+                        class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full focus:outline-blue-400"
+                        name="gram" required>
+                        <option disabled selected value="গ্রাম"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            গ্রাম</option>
+                        <option value="ছোটশলুয়া"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            ছোটশলুয়া</option>
+                        <option value="বলদিয়া"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            বলদিয়া</option>
+                        <option value="বড়শলুয়া"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            বড়শলুয়া</option>
+                        <option value="৬২ নং আড়িয়া"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            ৬২ নং আড়িয়া</option>
+                        <option value="৬৩ নং আড়িয়া"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            ৬৩ নং আড়িয়া</option>
+                        <option value="চাঁদপুর"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            চাঁদপুর</option>
+                        <option value="আড়িয়ারচক"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            আড়িয়ারচক</option>
+                        <option value="নুরুল্লাপুর"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            নুরুল্লাপুর</option>
+                        <option value="গিরিশনগর"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            গিরিশনগর</option>
+                        <option value="তিতুদহ"
+                            class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full">
+                            তিতুদহ</option>
 
 
 
-                            </select>
+                    </select>
                     <select
                         class="px-2 py-2 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 z-40 border border-gray-300 rounded-xl w-full"
                         name="ward">

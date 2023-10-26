@@ -98,6 +98,10 @@ $mullo = mysqli_query($con, $sebarmullo)
                 <img src="Assets/hero4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
             </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="Assets/hero5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+
+            </div>
 
         </div>
         <!-- Slider indicators -->
@@ -352,7 +356,8 @@ $mullo = mysqli_query($con, $sebarmullo)
     <!-- google map -->
 
     <div class="google-maps rounded-lg overflow-hidden">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.66510394799!2d88.90584107621955!3d23.54454469664642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fed049fab00e85%3A0x4ac7a83302b7ed70!2sTitudah%20Union%20Council!5e0!3m2!1sen!2sbd!4v1687576864406!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7311.39577988942!2d88.8264222586914!3d23.615165400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fecd0f881fce93%3A0xa0a2a1134a75f9dc!2sMakhaldanga%20Dinnathpur%20High%20School!5e0!3m2!1sen!2sbd!4v1698285166236!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     
     </div>
 
     <!-- footer area -->
